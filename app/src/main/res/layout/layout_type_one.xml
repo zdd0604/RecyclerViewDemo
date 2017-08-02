@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/size_5"
+        android:background="@drawable/blue_bg"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layout_tone_1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_30"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="当前日期" />
+
+            <TextView
+                android:id="@+id/layout_tone_1_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size_10"
+                android:text="2017-8-23" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_tone_2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_30"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="当前人数" />
+
+            <TextView
+                android:id="@+id/layout_tone_2_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size_10"
+                android:text="58人" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_tone_3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_30"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="当前分类" />
+
+            <TextView
+                android:id="@+id/layout_tone_3_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size_10"
+                android:text="家属以及朋友" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_tone_4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_30"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="今日天气" />
+
+            <TextView
+                android:id="@+id/layout_tone_4_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size_10"
+                android:text="阴转多云" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
